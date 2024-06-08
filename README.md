@@ -11,10 +11,10 @@ from wallet import WALLET
 wallet = WALLET(1000)
 
 # Buy some assets
-wallet.buy('2024-06-08 12:00:00', 'PSY', 5, 500)
+wallet.buy('2024-06-08 12:00:00', 'SPY', 5, 500)
 
 # Sell some assets
-wallet.sell('2024-06-09 12:00:00', 'PSY', 2, 510)
+wallet.sell('2024-06-09 12:00:00', 'SPY', 2, 510)
 
 # Print account details
 print(wallet.account())
