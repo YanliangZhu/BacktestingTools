@@ -8,7 +8,7 @@ import pandas as pd
 from wallet import WALLET
 
 # Initialize the wallet with initial cash
-wallet = WALLET(1000)
+wallet = WALLET(5000)
 
 # Buy some assets
 wallet.buy('2024-06-08 12:00:00', 'SPY', 5, 500)
