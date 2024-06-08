@@ -1,4 +1,4 @@
-# Backtesting Tools: WALLET Class
+# WALLET Class
 This repository contains the implementation of a `WALLET` class for managing a simple trading wallet.
 
 ## Usage
@@ -11,10 +11,10 @@ from wallet import WALLET
 wallet = WALLET(1000)
 
 # Buy some assets
-wallet.buy('2024-06-08 12:00:00', 'AAPL', 5, 150)
+wallet.buy('2024-06-08 12:00:00', 'PSY', 5, 500)
 
 # Sell some assets
-wallet.sell('2024-06-09 12:00:00', 'AAPL', 2, 160)
+wallet.sell('2024-06-09 12:00:00', 'PSY', 2, 510)
 
 # Print account details
 print(wallet.account())
